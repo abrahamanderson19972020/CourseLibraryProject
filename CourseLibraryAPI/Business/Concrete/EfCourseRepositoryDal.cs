@@ -60,7 +60,7 @@ namespace CourseLibraryAPI.Business.Abstract
 
         public async Task<ICollection<Course>> GetCourseAsync(Guid authorId)
         {
-            return _context.Courses.Where(c => c.Id == authorId).ToList();  
+            return await _context.Courses.Where<Course>(c => c.AuthorId == authorId).ToListAsync();  
         }
 
         public async Task<Course> GetCourseByIdAsync(Guid courseId, Guid authorId)

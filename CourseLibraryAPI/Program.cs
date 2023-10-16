@@ -4,11 +4,11 @@ using Serilog;
 using System.Text.Json.Serialization;
 using CourseLibraryAPI.Business.Abstract;
 
-Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo
-    .File("Logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
+Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.Console()
+    .WriteTo.File("logs/courselibraryinfo.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Host.UseSerilog();
 // Add services to the container.
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers().AddJsonOptions(x =>

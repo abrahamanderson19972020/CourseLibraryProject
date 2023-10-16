@@ -13,10 +13,12 @@ namespace CourseLibraryAPI.Controllers
     {
         private readonly ICourseRepositoryDal _repositoryDal;
         private readonly IMapper _mapper;
-        public AuthorsController(ICourseRepositoryDal repositoryDal, IMapper  mapper)
+        private readonly ILogger<AuthorsController> _logger;
+        public AuthorsController(ICourseRepositoryDal repositoryDal, IMapper  mapper, ILogger<AuthorsController> logger)
         {
             _repositoryDal = repositoryDal;
             _mapper = mapper;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -24,7 +26,11 @@ namespace CourseLibraryAPI.Controllers
         {
             var cities = await _repositoryDal.GetAuthorsAsync();
             if (cities == null)
+            {
+                _logger.LogError("Could not get authors");
                 return NotFound();
+            }
+            _logger.LogInformation("All Authors are listed" +cities.ToString());
             return Ok(cities);
         }
         [HttpGet("{authorId}")]
@@ -32,7 +38,11 @@ namespace CourseLibraryAPI.Controllers
         {
             var author = await _repositoryDal.GetAuthorByIdAsync(authorId);
             if (author == null)
+            {
+                _logger.LogCritical($"No author wiht id {authorId}");
                 return NotFound();
+            }
+            _logger.LogInformation("Author found with details "+ author.ToString());
             return Ok(author);
         }
         [HttpPost("addauthor")]
@@ -40,8 +50,23 @@ namespace CourseLibraryAPI.Controllers
         {
             var authorToAdd = _mapper.Map<Author>(author);
             await _repositoryDal.AddAuthor(authorToAdd);
-            var authorToReturn = _mapper.Map<AuthorDto>(authorToAdd);
-            return Ok(authorToReturn);
+            _logger.LogInformation("New Author with details " + authorToAdd.ToString());
+            return Ok(authorToAdd);
         }
+        [HttpPut("updateauthor")]
+        public async Task<ActionResult> UpdateAuthor(Author author)
+        {
+            await _repositoryDal.UpdateAuthor(author);
+            _logger.LogInformation("Author is updated with details " + author.ToString());
+            return NoContent();
+        }
+        [HttpDelete("deleteauthor")]
+        public async Task<ActionResult> DeleteAuthor(Guid authorId)
+        {
+            await _repositoryDal.DeleteAuthor(authorId);
+            _logger.LogInformation($"Author is updated with id {authorId} " );
+            return NoContent(); 
+        }
+
     }
 }
