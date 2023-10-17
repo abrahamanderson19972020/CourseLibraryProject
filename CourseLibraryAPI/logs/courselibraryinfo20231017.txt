@@ -472,3 +472,1399 @@ WHERE [c].[AuthorId] = @__authorId_0
 2023-10-17 00:06:10.139 +02:00 [DBG] Connection id "0HMUEIFMNA4C8" is closed. The last processed stream ID was 11.
 2023-10-17 00:06:10.145 +02:00 [DBG] Connection id "0HMUEIFMNA4C8" sending FIN because: "The client closed the connection."
 2023-10-17 00:06:10.318 +02:00 [DBG] Connection id "0HMUEIFMNA4C8" stopped.
+2023-10-17 22:57:29.058 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-17 22:57:29.976 +02:00 [DBG] Hosting starting
+2023-10-17 22:57:30.434 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CB853927FC62DC046486414CBC785EB3C1C7E64)
+2023-10-17 22:57:30.708 +02:00 [INF] Now listening on: https://localhost:7100
+2023-10-17 22:57:30.710 +02:00 [INF] Now listening on: http://localhost:5100
+2023-10-17 22:57:30.712 +02:00 [DBG] Loaded hosting startup assembly CourseLibraryAPI
+2023-10-17 22:57:30.713 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-17 22:57:30.715 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-17 22:57:30.717 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-17 22:57:30.719 +02:00 [INF] Hosting environment: Development
+2023-10-17 22:57:30.721 +02:00 [INF] Content root path: C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\
+2023-10-17 22:57:30.722 +02:00 [DBG] Hosting started
+2023-10-17 22:57:30.967 +02:00 [DBG] Connection id "0HMUFAEMU5RJD" accepted.
+2023-10-17 22:57:30.967 +02:00 [DBG] Connection id "0HMUFAEMU5RJC" accepted.
+2023-10-17 22:57:30.971 +02:00 [DBG] Connection id "0HMUFAEMU5RJD" started.
+2023-10-17 22:57:30.972 +02:00 [DBG] Connection id "0HMUFAEMU5RJC" started.
+2023-10-17 22:57:32.169 +02:00 [DBG] Connection id "0HMUFAEMU5RJE" accepted.
+2023-10-17 22:57:33.056 +02:00 [DBG] Connection id "0HMUFAEMU5RJE" started.
+2023-10-17 22:57:33.213 +02:00 [DBG] Connection 0HMUFAEMU5RJE established using the following protocol: "Tls12"
+2023-10-17 22:57:33.367 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - -
+2023-10-17 22:57:33.428 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-17 22:57:33.489 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-17 22:57:33.496 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 22:57:33.995 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-17 22:57:34.367 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-17 22:57:34.377 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - - - 200 - text/html;charset=utf-8 1017.4064ms
+2023-10-17 22:57:34.465 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - -
+2023-10-17 22:57:34.510 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 44.6852ms
+2023-10-17 22:57:35.242 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - -
+2023-10-17 22:57:35.244 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-17 22:57:35.245 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 22:57:35.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.1664ms
+2023-10-17 22:57:41.011 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-10-17 22:57:41.011 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-10-17 22:57:41.015 +02:00 [DBG] Connection id "0HMUFAEMU5RJC" stopped.
+2023-10-17 22:57:41.015 +02:00 [DBG] Connection id "0HMUFAEMU5RJD" stopped.
+2023-10-17 22:57:41.016 +02:00 [DBG] Connection id "0HMUFAEMU5RJC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 22:57:41.018 +02:00 [DBG] Connection id "0HMUFAEMU5RJD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 22:58:07.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 22:58:07.775 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 22:58:07.793 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 22:58:07.796 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 22:58:07.799 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 22:58:07.801 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 22:58:07.831 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 22:58:07.834 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 22:58:07.836 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 22:58:07.838 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 22:58:07.841 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 22:58:07.843 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 22:58:07.845 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 22:58:08.075 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-17 22:58:08.256 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 22:58:09.125 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 22:58:09.366 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .Include(a => a.Courses)'
+2023-10-17 22:58:09.448 +02:00 [DBG] Including navigation: 'Author.Courses'.
+2023-10-17 22:58:09.727 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Author>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Course.AuthorId (Guid) Required FK Index, 6], [Property: Course.Description (string) Required MaxLength(2000), 7], [Property: Course.Title (string) Required MaxLength(200), 8] }
+            3 -> 5
+        SELECT a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory, c.Id, c.AuthorId, c.Description, c.Title
+        FROM Authors AS a
+        LEFT JOIN Courses AS c ON a.Id == c.AuthorId
+        ORDER BY a.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 22:58:09.781 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 22:58:09.825 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (41ms).
+2023-10-17 22:58:09.833 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:12.231 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:12.245 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 22:58:12.306 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 22:58:12.345 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.385 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.387 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.389 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.391 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.398 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.405 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.431 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.437 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.439 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.443 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.445 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.447 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:12.453 +02:00 [DBG] A data reader was disposed.
+2023-10-17 22:58:12.459 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:12.466 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:12.468 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 22:58:12.476 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 22:58:12.481 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 22:58:12.483 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 22:58:12.484 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 22:58:12.485 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 22:58:12.488 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 22:58:12.490 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 22:58:12.529 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 4679.4168ms
+2023-10-17 22:58:12.533 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 22:58:12.538 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 22:58:12.543 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 4780.0114ms
+2023-10-17 22:58:40.594 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/courses?authorId=2902b665-1190-4c70-9915-b9c2d7680450 - -
+2023-10-17 22:58:40.604 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses'
+2023-10-17 22:58:40.622 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetAllCourses (CourseLibraryAPI)' with route pattern 'api/courses' is valid for the request path '/api/courses'
+2023-10-17 22:58:40.624 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetAllCourses (CourseLibraryAPI)'
+2023-10-17 22:58:40.625 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 22:58:40.626 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetAllCourses (CourseLibraryAPI)'
+2023-10-17 22:58:40.646 +02:00 [INF] Route matched with {action = "GetAllCourses", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Course]]] GetAllCourses(System.Guid) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 22:58:40.650 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 22:58:40.651 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 22:58:40.652 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 22:58:40.655 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 22:58:40.656 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 22:58:40.658 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 22:58:40.661 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 22:58:40.674 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 22:58:40.679 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 22:58:40.683 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 22:58:40.685 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 22:58:40.686 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 22:58:40.692 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 22:58:40.700 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 22:58:40.730 +02:00 [DBG] Compiling query expression: 
+'DbSet<Course>()
+    .Where(c => c.AuthorId == __authorId_0)'
+2023-10-17 22:58:40.740 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Course>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Course.AuthorId (Guid) Required FK Index, 1], [Property: Course.Description (string) Required MaxLength(2000), 2], [Property: Course.Title (string) Required MaxLength(200), 3] }
+        SELECT c.Id, c.AuthorId, c.Description, c.Title
+        FROM Courses AS c
+        WHERE c.AuthorId == @__authorId_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Course>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 22:58:40.747 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 22:58:40.749 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 22:58:40.753 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:40.756 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:40.764 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE [c].[AuthorId] = @__authorId_0
+2023-10-17 22:58:40.802 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__authorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE [c].[AuthorId] = @__authorId_0
+2023-10-17 22:58:40.806 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:58:40.812 +02:00 [DBG] A data reader was disposed.
+2023-10-17 22:58:40.813 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:40.814 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:58:40.816 +02:00 [INF] System.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Course]
+2023-10-17 22:58:40.817 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 22:58:40.820 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 22:58:40.821 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 22:58:40.822 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 22:58:40.826 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 22:58:40.827 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 22:58:40.828 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Course, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 22:58:40.830 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.CoursesController.GetAllCourses (CourseLibraryAPI) in 172.0619ms
+2023-10-17 22:58:40.832 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetAllCourses (CourseLibraryAPI)'
+2023-10-17 22:58:40.833 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 22:58:40.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/courses?authorId=2902b665-1190-4c70-9915-b9c2d7680450 - - - 200 - application/json;+charset=utf-8 240.1403ms
+2023-10-17 22:59:30.640 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a - -
+2023-10-17 22:59:30.647 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a'
+2023-10-17 22:59:30.648 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)' with route pattern 'api/courses/{authorId}/{courseId}' is valid for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a'
+2023-10-17 22:59:30.650 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 22:59:30.651 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 22:59:30.652 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 22:59:30.656 +02:00 [INF] Route matched with {action = "GetCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CourseLibraryAPI.Models.Entities.Course]] GetCourse(System.Guid, System.Guid) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 22:59:30.659 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 22:59:30.660 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 22:59:30.662 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 22:59:30.664 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 22:59:30.667 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 22:59:30.669 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 22:59:30.674 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 22:59:30.677 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 22:59:30.678 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' using the name 'courseId' in request data ...
+2023-10-17 22:59:30.682 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 22:59:30.684 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 22:59:30.685 +02:00 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 22:59:30.687 +02:00 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Guid'.
+2023-10-17 22:59:30.688 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 22:59:30.689 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 22:59:30.691 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 22:59:30.692 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 22:59:30.693 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 22:59:30.695 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 22:59:30.753 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 22:59:30.760 +02:00 [DBG] Compiling query expression: 
+'DbSet<Course>()
+    .Where(c => c.AuthorId == __authorId_0 && c.Id == __courseId_1)
+    .FirstOrDefault()'
+2023-10-17 22:59:30.770 +02:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Course>(
+    asyncEnumerable: new SingleQueryingEnumerable<Course>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Course.AuthorId (Guid) Required FK Index, 1], [Property: Course.Description (string) Required MaxLength(2000), 2], [Property: Course.Title (string) Required MaxLength(200), 3] }
+            SELECT TOP(1) c.Id, c.AuthorId, c.Description, c.Title
+            FROM Courses AS c
+            WHERE (c.AuthorId == @__authorId_0) && (c.Id == @__courseId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Course>, 
+        CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-17 22:59:30.778 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 22:59:30.780 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 22:59:30.781 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:59:30.783 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:59:30.784 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 22:59:30.790 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 22:59:30.794 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 22:59:30.796 +02:00 [DBG] A data reader was disposed.
+2023-10-17 22:59:30.797 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:59:30.798 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 22:59:30.799 +02:00 [INF] Course details CourseLibraryAPI.Models.Entities.Course
+2023-10-17 22:59:30.800 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 22:59:30.802 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 22:59:30.803 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 22:59:30.805 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 22:59:30.806 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 22:59:30.807 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 22:59:30.809 +02:00 [INF] Executing OkObjectResult, writing value of type 'CourseLibraryAPI.Models.Entities.Course'.
+2023-10-17 22:59:30.811 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI) in 142.351ms
+2023-10-17 22:59:30.812 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 22:59:30.817 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 22:59:30.820 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a - - - 200 - application/json;+charset=utf-8 178.8827ms
+2023-10-17 23:00:02.902 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/courses/da2fd609-d754-4feb-8acd-c4f9ff13ba96/40ff5488-fdab-45b5-bc3a-14302d59869a - -
+2023-10-17 23:00:02.905 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses/da2fd609-d754-4feb-8acd-c4f9ff13ba96/40ff5488-fdab-45b5-bc3a-14302d59869a'
+2023-10-17 23:00:02.921 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)' with route pattern 'api/courses/{authorId}/{courseId}' is valid for the request path '/api/courses/da2fd609-d754-4feb-8acd-c4f9ff13ba96/40ff5488-fdab-45b5-bc3a-14302d59869a'
+2023-10-17 23:00:02.923 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:00:02.924 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:00:02.925 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:00:02.926 +02:00 [INF] Route matched with {action = "GetCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CourseLibraryAPI.Models.Entities.Course]] GetCourse(System.Guid, System.Guid) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 23:00:02.928 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:00:02.929 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:00:02.931 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:00:02.933 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:00:02.934 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:00:02.936 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:00:02.938 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:00:02.940 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:00:02.942 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' using the name 'courseId' in request data ...
+2023-10-17 23:00:02.943 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:00:02.944 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:00:02.945 +02:00 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:00:02.946 +02:00 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:00:02.948 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:00:02.949 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 23:00:02.950 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:00:02.951 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:00:02.952 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:00:02.954 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:00:02.957 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:00:02.962 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:00:02.963 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:00:02.964 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:00:02.966 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:00:02.967 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:00:02.972 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:00:02.977 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:00:02.978 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:00:02.980 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:00:02.982 +02:00 [ERR] No course found with
+2023-10-17 23:00:09.345 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI) in 6408.8489ms
+2023-10-17 23:00:09.348 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:00:09.352 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CourseLibraryAPI.Controllers.CoursesController.GetCourse(Guid courseId, Guid authorId) in C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\Controllers\CoursesController.cs:line 40
+   at lambda_method113(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-17 23:00:09.465 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:00:09.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/courses/da2fd609-d754-4feb-8acd-c4f9ff13ba96/40ff5488-fdab-45b5-bc3a-14302d59869a - - - 500 - text/plain;+charset=utf-8 6564.9561ms
+2023-10-17 23:01:15.599 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-17 23:01:15.760 +02:00 [DBG] Hosting starting
+2023-10-17 23:01:16.095 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CB853927FC62DC046486414CBC785EB3C1C7E64)
+2023-10-17 23:01:16.297 +02:00 [INF] Now listening on: https://localhost:7100
+2023-10-17 23:01:16.298 +02:00 [INF] Now listening on: http://localhost:5100
+2023-10-17 23:01:16.299 +02:00 [DBG] Loaded hosting startup assembly CourseLibraryAPI
+2023-10-17 23:01:16.300 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-17 23:01:16.301 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-17 23:01:16.302 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-17 23:01:16.304 +02:00 [INF] Hosting environment: Development
+2023-10-17 23:01:16.305 +02:00 [INF] Content root path: C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\
+2023-10-17 23:01:16.306 +02:00 [DBG] Hosting started
+2023-10-17 23:01:16.458 +02:00 [DBG] Connection id "0HMUFAGQ4KGO0" accepted.
+2023-10-17 23:01:16.461 +02:00 [DBG] Connection id "0HMUFAGQ4KGO0" started.
+2023-10-17 23:01:16.489 +02:00 [DBG] Connection id "0HMUFAGQ4KGO0" received FIN.
+2023-10-17 23:01:16.512 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:01:16.569 +02:00 [DBG] Connection id "0HMUFAGQ4KGO0" stopped.
+2023-10-17 23:01:16.572 +02:00 [DBG] Connection id "0HMUFAGQ4KGO0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:01:16.836 +02:00 [DBG] Connection id "0HMUFAGQ4KGO1" accepted.
+2023-10-17 23:01:16.839 +02:00 [DBG] Connection id "0HMUFAGQ4KGO1" started.
+2023-10-17 23:01:16.922 +02:00 [DBG] Connection 0HMUFAGQ4KGO1 established using the following protocol: "Tls12"
+2023-10-17 23:01:17.209 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - -
+2023-10-17 23:01:17.294 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-17 23:01:17.338 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-17 23:01:17.341 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:01:17.603 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-17 23:01:17.739 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-17 23:01:17.745 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - - - 200 - text/html;charset=utf-8 544.4244ms
+2023-10-17 23:01:17.843 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - -
+2023-10-17 23:01:17.869 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 25.0886ms
+2023-10-17 23:01:18.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - -
+2023-10-17 23:01:18.050 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-17 23:01:18.052 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:01:18.288 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 239.8395ms
+2023-10-17 23:01:32.324 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 23:01:32.334 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 23:01:32.342 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 23:01:32.345 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:01:32.349 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:01:32.353 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:01:32.387 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:01:32.393 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:01:32.395 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:01:32.397 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:01:32.399 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:01:32.401 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:01:32.403 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:01:32.577 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-17 23:01:32.796 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:01:33.810 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:01:33.902 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .Include(a => a.Courses)'
+2023-10-17 23:01:34.004 +02:00 [DBG] Including navigation: 'Author.Courses'.
+2023-10-17 23:01:34.311 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Author>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Course.AuthorId (Guid) Required FK Index, 6], [Property: Course.Description (string) Required MaxLength(2000), 7], [Property: Course.Title (string) Required MaxLength(200), 8] }
+            3 -> 5
+        SELECT a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory, c.Id, c.AuthorId, c.Description, c.Title
+        FROM Authors AS a
+        LEFT JOIN Courses AS c ON a.Id == c.AuthorId
+        ORDER BY a.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 23:01:34.365 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:01:34.416 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (47ms).
+2023-10-17 23:01:34.425 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:01:34.961 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:01:34.975 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:01:35.052 +02:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:01:35.085 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.120 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.127 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.129 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.132 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.139 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.145 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.181 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.188 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.190 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.193 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.194 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.195 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:01:35.202 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:01:35.206 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:01:35.213 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:01:35.215 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 23:01:35.220 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:01:35.226 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:01:35.228 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:01:35.230 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:01:35.231 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:01:35.233 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:01:35.235 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 23:01:35.301 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 2891.9471ms
+2023-10-17 23:01:35.305 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:01:35.311 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:01:35.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 2991.5239ms
+2023-10-17 23:02:24.599 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/da2fd609-d754-4feb-8acd-c4f9ff13ba96 - -
+2023-10-17 23:02:24.621 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/da2fd609-d754-4feb-8acd-c4f9ff13ba96'
+2023-10-17 23:02:24.633 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)' with route pattern 'api/courses/{authorId}/{courseId}' is valid for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/da2fd609-d754-4feb-8acd-c4f9ff13ba96'
+2023-10-17 23:02:24.635 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:02:24.636 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:02:24.637 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:02:24.652 +02:00 [INF] Route matched with {action = "GetCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CourseLibraryAPI.Models.Entities.Course]] GetCourse(System.Guid, System.Guid) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 23:02:24.655 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:02:24.656 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:02:24.659 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:02:24.661 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:02:24.663 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:02:24.664 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:02:24.667 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:02:24.672 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:02:24.675 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' using the name 'courseId' in request data ...
+2023-10-17 23:02:24.678 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:02:24.679 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:02:24.680 +02:00 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:02:24.685 +02:00 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:02:24.688 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:02:24.690 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 23:02:24.693 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:02:24.694 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:02:24.695 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:02:24.696 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:02:39.112 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:02:39.119 +02:00 [DBG] Compiling query expression: 
+'DbSet<Course>()
+    .Where(c => c.AuthorId == __authorId_0 && c.Id == __courseId_1)
+    .FirstOrDefault()'
+2023-10-17 23:02:39.135 +02:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Course>(
+    asyncEnumerable: new SingleQueryingEnumerable<Course>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Course.AuthorId (Guid) Required FK Index, 1], [Property: Course.Description (string) Required MaxLength(2000), 2], [Property: Course.Title (string) Required MaxLength(200), 3] }
+            SELECT TOP(1) c.Id, c.AuthorId, c.Description, c.Title
+            FROM Courses AS c
+            WHERE (c.AuthorId == @__authorId_0) && (c.Id == @__courseId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Course>, 
+        CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-17 23:02:39.145 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:02:39.146 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:02:39.151 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:02:39.153 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:02:39.160 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:02:39.192 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:02:39.198 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:02:39.199 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:02:39.201 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:02:39.202 +02:00 [ERR] No course found with
+2023-10-17 23:03:35.271 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-17 23:03:35.405 +02:00 [DBG] Hosting starting
+2023-10-17 23:03:35.612 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CB853927FC62DC046486414CBC785EB3C1C7E64)
+2023-10-17 23:03:35.752 +02:00 [INF] Now listening on: https://localhost:7100
+2023-10-17 23:03:35.754 +02:00 [INF] Now listening on: http://localhost:5100
+2023-10-17 23:03:35.755 +02:00 [DBG] Loaded hosting startup assembly CourseLibraryAPI
+2023-10-17 23:03:35.756 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-17 23:03:35.758 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-17 23:03:35.760 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-17 23:03:35.762 +02:00 [INF] Hosting environment: Development
+2023-10-17 23:03:35.764 +02:00 [INF] Content root path: C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\
+2023-10-17 23:03:35.765 +02:00 [DBG] Hosting started
+2023-10-17 23:03:35.773 +02:00 [DBG] Connection id "0HMUFAI3L951J" received FIN.
+2023-10-17 23:03:35.773 +02:00 [DBG] Connection id "0HMUFAI3L951I" received FIN.
+2023-10-17 23:03:35.787 +02:00 [DBG] Connection id "0HMUFAI3L951J" accepted.
+2023-10-17 23:03:35.787 +02:00 [DBG] Connection id "0HMUFAI3L951I" accepted.
+2023-10-17 23:03:35.790 +02:00 [DBG] Connection id "0HMUFAI3L951J" started.
+2023-10-17 23:03:35.790 +02:00 [DBG] Connection id "0HMUFAI3L951I" started.
+2023-10-17 23:03:35.822 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:03:35.822 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:03:35.883 +02:00 [DBG] Connection id "0HMUFAI3L951J" stopped.
+2023-10-17 23:03:35.893 +02:00 [DBG] Connection id "0HMUFAI3L951I" stopped.
+2023-10-17 23:03:35.900 +02:00 [DBG] Connection id "0HMUFAI3L951I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:03:35.900 +02:00 [DBG] Connection id "0HMUFAI3L951J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:03:36.146 +02:00 [DBG] Connection id "0HMUFAI3L951K" accepted.
+2023-10-17 23:03:36.149 +02:00 [DBG] Connection id "0HMUFAI3L951K" started.
+2023-10-17 23:03:36.247 +02:00 [DBG] Connection 0HMUFAI3L951K established using the following protocol: "Tls12"
+2023-10-17 23:03:36.545 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - -
+2023-10-17 23:03:36.608 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-17 23:03:36.662 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-17 23:03:36.664 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:03:36.960 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-17 23:03:37.095 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-17 23:03:37.100 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - - - 200 - text/html;charset=utf-8 563.4578ms
+2023-10-17 23:03:37.128 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - -
+2023-10-17 23:03:37.133 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 5.2541ms
+2023-10-17 23:03:37.297 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - -
+2023-10-17 23:03:37.299 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-17 23:03:37.300 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:03:37.526 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 229.4431ms
+2023-10-17 23:03:41.201 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 23:03:41.210 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 23:03:41.218 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 23:03:41.220 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:03:41.224 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:03:41.228 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:03:41.261 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:03:41.266 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:03:41.268 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:03:41.270 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:03:41.272 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:03:41.275 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:03:41.278 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:03:41.448 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-17 23:03:41.650 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:03:42.603 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:03:42.689 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .Include(a => a.Courses)'
+2023-10-17 23:03:42.784 +02:00 [DBG] Including navigation: 'Author.Courses'.
+2023-10-17 23:03:43.030 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Author>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Course.AuthorId (Guid) Required FK Index, 6], [Property: Course.Description (string) Required MaxLength(2000), 7], [Property: Course.Title (string) Required MaxLength(200), 8] }
+            3 -> 5
+        SELECT a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory, c.Id, c.AuthorId, c.Description, c.Title
+        FROM Authors AS a
+        LEFT JOIN Courses AS c ON a.Id == c.AuthorId
+        ORDER BY a.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 23:03:43.082 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:03:43.136 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (49ms).
+2023-10-17 23:03:43.148 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:03:43.616 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:03:43.630 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:03:43.686 +02:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:03:43.718 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.754 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.758 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.760 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.763 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.770 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.777 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.800 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.806 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.809 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.811 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.813 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.815 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:03:43.821 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:03:43.827 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:03:43.833 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:03:43.835 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 23:03:43.840 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:03:43.847 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:03:43.849 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:03:43.851 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:03:43.852 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:03:43.854 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:03:43.856 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 23:03:43.901 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 2616.4647ms
+2023-10-17 23:03:43.905 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:03:43.909 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:03:43.915 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 2714.5911ms
+2023-10-17 23:04:24.091 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a - -
+2023-10-17 23:04:24.095 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a'
+2023-10-17 23:04:24.097 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)' with route pattern 'api/courses/{authorId}/{courseId}' is valid for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a'
+2023-10-17 23:04:24.100 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:04:24.102 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:04:24.104 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:04:24.122 +02:00 [INF] Route matched with {action = "GetCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CourseLibraryAPI.Models.Entities.Course]] GetCourse(System.Guid, System.Guid) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 23:04:24.126 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:04:24.127 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:04:24.129 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:04:24.132 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:04:24.134 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:04:24.135 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:04:24.138 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:04:24.144 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:04:24.148 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' using the name 'courseId' in request data ...
+2023-10-17 23:04:24.151 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:04:24.152 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:04:24.153 +02:00 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:04:24.157 +02:00 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:04:24.161 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:04:24.163 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 23:04:24.164 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:04:24.165 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:04:24.167 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:04:24.168 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:04:32.500 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:04:32.511 +02:00 [DBG] Compiling query expression: 
+'DbSet<Course>()
+    .Where(c => c.AuthorId == __authorId_0 && c.Id == __courseId_1)
+    .FirstOrDefault()'
+2023-10-17 23:04:32.524 +02:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Course>(
+    asyncEnumerable: new SingleQueryingEnumerable<Course>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Course.AuthorId (Guid) Required FK Index, 1], [Property: Course.Description (string) Required MaxLength(2000), 2], [Property: Course.Title (string) Required MaxLength(200), 3] }
+            SELECT TOP(1) c.Id, c.AuthorId, c.Description, c.Title
+            FROM Courses AS c
+            WHERE (c.AuthorId == @__authorId_0) && (c.Id == @__courseId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Course>, 
+        CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-17 23:04:32.537 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:04:32.538 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:04:32.544 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:32.547 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:32.554 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:04:32.584 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:04:32.589 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:04:32.594 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:04:32.595 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:32.597 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:32.599 +02:00 [INF] Course details CourseLibraryAPI.Models.Entities.Course
+2023-10-17 23:04:32.599 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:04:32.602 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:04:32.603 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:04:32.605 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:04:32.606 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:04:32.607 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:04:32.609 +02:00 [INF] Executing OkObjectResult, writing value of type 'CourseLibraryAPI.Models.Entities.Course'.
+2023-10-17 23:04:32.611 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI) in 8476.0475ms
+2023-10-17 23:04:32.613 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:04:32.614 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:04:32.616 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/40ff5488-fdab-45b5-bc3a-14302d59869a - - - 200 - application/json;+charset=utf-8 8524.3186ms
+2023-10-17 23:04:45.386 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/2902b665-1190-4c70-9915-b9c2d7680450 - -
+2023-10-17 23:04:45.388 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/2902b665-1190-4c70-9915-b9c2d7680450'
+2023-10-17 23:04:45.390 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)' with route pattern 'api/courses/{authorId}/{courseId}' is valid for the request path '/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/2902b665-1190-4c70-9915-b9c2d7680450'
+2023-10-17 23:04:45.393 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:04:45.395 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:04:45.396 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:04:45.397 +02:00 [INF] Route matched with {action = "GetCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CourseLibraryAPI.Models.Entities.Course]] GetCourse(System.Guid, System.Guid) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 23:04:45.399 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:04:45.401 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:04:45.403 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:04:45.405 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:04:45.409 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:04:45.411 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:04:45.414 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:04:45.416 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:04:45.418 +02:00 [DBG] Attempting to bind parameter 'courseId' of type 'System.Guid' using the name 'courseId' in request data ...
+2023-10-17 23:04:45.419 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:04:45.420 +02:00 [DBG] Done attempting to bind parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:04:45.421 +02:00 [DBG] Attempting to validate the bound parameter 'courseId' of type 'System.Guid' ...
+2023-10-17 23:04:45.423 +02:00 [DBG] Done attempting to validate the bound parameter 'courseId' of type 'System.Guid'.
+2023-10-17 23:04:45.426 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:04:45.428 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 23:04:45.430 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:04:45.432 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:04:45.433 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:04:45.435 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:04:45.495 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:04:45.502 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:04:45.504 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:04:45.505 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:45.507 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:45.509 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:04:45.515 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__authorId_0='?' (DbType = Guid), @__courseId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Courses] AS [c]
+WHERE ([c].[AuthorId] = @__authorId_0) AND ([c].[Id] = @__courseId_1)
+2023-10-17 23:04:45.520 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:04:45.521 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:45.522 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:04:45.524 +02:00 [ERR] No course found
+2023-10-17 23:04:45.532 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:04:45.535 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:04:45.537 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-10-17 23:04:45.538 +02:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-10-17 23:04:45.539 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI) in 128.5659ms
+2023-10-17 23:04:45.540 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.CoursesController.GetCourse (CourseLibraryAPI)'
+2023-10-17 23:04:45.543 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:04:45.544 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/courses/2902b665-1190-4c70-9915-b9c2d7680450/2902b665-1190-4c70-9915-b9c2d7680450 - - - 404 - text/plain;+charset=utf-8 158.2624ms
+2023-10-17 23:04:50.544 +02:00 [DBG] Connection id "0HMUFAI3L951K" received FIN.
+2023-10-17 23:04:50.548 +02:00 [DBG] Connection id "0HMUFAI3L951K" is closed. The last processed stream ID was 11.
+2023-10-17 23:04:50.553 +02:00 [DBG] Connection id "0HMUFAI3L951K" sending FIN because: "The client closed the connection."
+2023-10-17 23:04:50.567 +02:00 [DBG] Connection id "0HMUFAI3L951K" stopped.
+2023-10-17 23:34:59.570 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-17 23:34:59.782 +02:00 [DBG] Hosting starting
+2023-10-17 23:35:00.148 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CB853927FC62DC046486414CBC785EB3C1C7E64)
+2023-10-17 23:35:00.285 +02:00 [INF] Now listening on: https://localhost:7100
+2023-10-17 23:35:00.287 +02:00 [INF] Now listening on: http://localhost:5100
+2023-10-17 23:35:00.292 +02:00 [DBG] Loaded hosting startup assembly CourseLibraryAPI
+2023-10-17 23:35:00.294 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-17 23:35:00.295 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-17 23:35:00.298 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-17 23:35:00.300 +02:00 [INF] Hosting environment: Development
+2023-10-17 23:35:00.302 +02:00 [INF] Content root path: C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\
+2023-10-17 23:35:00.304 +02:00 [DBG] Hosting started
+2023-10-17 23:35:00.684 +02:00 [DBG] Connection id "0HMUFB3LD5O0U" accepted.
+2023-10-17 23:35:00.686 +02:00 [DBG] Connection id "0HMUFB3LD5O0U" started.
+2023-10-17 23:35:00.687 +02:00 [DBG] Connection id "0HMUFB3LD5O0V" accepted.
+2023-10-17 23:35:00.688 +02:00 [DBG] Connection id "0HMUFB3LD5O0V" started.
+2023-10-17 23:35:00.722 +02:00 [DBG] Connection id "0HMUFB3LD5O0U" received FIN.
+2023-10-17 23:35:00.722 +02:00 [DBG] Connection id "0HMUFB3LD5O0V" received FIN.
+2023-10-17 23:35:00.739 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:35:00.739 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:35:00.793 +02:00 [DBG] Connection id "0HMUFB3LD5O0U" stopped.
+2023-10-17 23:35:00.793 +02:00 [DBG] Connection id "0HMUFB3LD5O0V" stopped.
+2023-10-17 23:35:00.796 +02:00 [DBG] Connection id "0HMUFB3LD5O0V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:35:00.796 +02:00 [DBG] Connection id "0HMUFB3LD5O0U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:35:01.082 +02:00 [DBG] Connection id "0HMUFB3LD5O10" accepted.
+2023-10-17 23:35:01.084 +02:00 [DBG] Connection id "0HMUFB3LD5O10" started.
+2023-10-17 23:35:01.169 +02:00 [DBG] Connection 0HMUFB3LD5O10 established using the following protocol: "Tls12"
+2023-10-17 23:35:01.460 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - -
+2023-10-17 23:35:01.522 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-17 23:35:01.572 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-17 23:35:01.575 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:35:01.904 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-17 23:35:02.124 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-17 23:35:02.132 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - - - 200 - text/html;charset=utf-8 683.4647ms
+2023-10-17 23:35:02.168 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - -
+2023-10-17 23:35:02.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 9.5641ms
+2023-10-17 23:35:02.457 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - -
+2023-10-17 23:35:02.459 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-17 23:35:02.461 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:35:02.698 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 240.9691ms
+2023-10-17 23:35:47.222 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 23:35:47.251 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 23:35:47.258 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 23:35:47.262 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:35:47.265 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:35:47.269 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:35:47.302 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:35:47.306 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:35:47.308 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:35:47.310 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:35:47.313 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:35:47.314 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:35:47.318 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:35:47.489 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-17 23:35:47.663 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:35:48.583 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:35:48.673 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .Include(a => a.Courses)'
+2023-10-17 23:35:48.765 +02:00 [DBG] Including navigation: 'Author.Courses'.
+2023-10-17 23:35:49.043 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Author>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Course.AuthorId (Guid) Required FK Index, 6], [Property: Course.Description (string) Required MaxLength(2000), 7], [Property: Course.Title (string) Required MaxLength(200), 8] }
+            3 -> 5
+        SELECT a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory, c.Id, c.AuthorId, c.Description, c.Title
+        FROM Authors AS a
+        LEFT JOIN Courses AS c ON a.Id == c.AuthorId
+        ORDER BY a.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 23:35:49.095 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:35:49.151 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (51ms).
+2023-10-17 23:35:49.162 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:35:50.701 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:35:50.716 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:35:50.775 +02:00 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:35:50.814 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.850 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.853 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.855 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.857 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.863 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.871 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.896 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.903 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.905 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.907 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.908 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.911 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:35:50.917 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:35:50.922 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:35:50.931 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:35:50.933 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 23:35:50.940 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:35:50.946 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:35:50.948 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:35:50.949 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:35:50.950 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:35:50.952 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:35:50.954 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 23:35:51.000 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 3677.7011ms
+2023-10-17 23:35:51.004 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:35:51.009 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:35:51.014 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 3792.1496ms
+2023-10-17 23:36:07.036 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors/3751e81d-29d7-4d46-8de3-08dbce70bc02 - -
+2023-10-17 23:36:07.040 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors/3751e81d-29d7-4d46-8de3-08dbce70bc02'
+2023-10-17 23:36:07.042 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAuthor (CourseLibraryAPI)' with route pattern 'api/authors/{authorId}' is valid for the request path '/api/authors/3751e81d-29d7-4d46-8de3-08dbce70bc02'
+2023-10-17 23:36:07.045 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAuthor (CourseLibraryAPI)'
+2023-10-17 23:36:07.046 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:36:07.047 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAuthor (CourseLibraryAPI)'
+2023-10-17 23:36:07.066 +02:00 [INF] Route matched with {action = "GetAuthor", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CourseLibraryAPI.Models.Entities.Author]] GetAuthor(System.Guid) on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:36:07.069 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:36:07.070 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:36:07.072 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:36:07.074 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:36:07.076 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:36:07.078 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:36:07.081 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:36:07.087 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:36:07.090 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 23:36:07.093 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:36:07.095 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:36:07.097 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:36:07.102 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:36:07.110 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:36:07.126 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .FirstOrDefault(a => a.Id == __authorId_0)'
+2023-10-17 23:36:07.142 +02:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Author>(
+    asyncEnumerable: new SingleQueryingEnumerable<Author>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            SELECT TOP(1) a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory
+            FROM Authors AS a
+            WHERE a.Id == @__authorId_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+        CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-17 23:36:07.151 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:36:07.153 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:36:07.157 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:36:07.160 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:36:07.167 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory]
+FROM [Authors] AS [a]
+WHERE [a].[Id] = @__authorId_0
+2023-10-17 23:36:07.203 +02:00 [INF] Executed DbCommand (41ms) [Parameters=[@__authorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory]
+FROM [Authors] AS [a]
+WHERE [a].[Id] = @__authorId_0
+2023-10-17 23:36:07.206 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:36:07.212 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:36:07.213 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:36:07.215 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:36:07.216 +02:00 [INF] Author found with details CourseLibraryAPI.Models.Entities.Author
+2023-10-17 23:36:07.217 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:36:07.220 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:36:07.222 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:36:07.223 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:36:07.224 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:36:07.225 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:36:07.227 +02:00 [INF] Executing OkObjectResult, writing value of type 'CourseLibraryAPI.Models.Entities.Author'.
+2023-10-17 23:36:07.229 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAuthor (CourseLibraryAPI) in 150.5199ms
+2023-10-17 23:36:07.230 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAuthor (CourseLibraryAPI)'
+2023-10-17 23:36:07.232 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:36:07.233 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors/3751e81d-29d7-4d46-8de3-08dbce70bc02 - - - 200 - application/json;+charset=utf-8 197.1558ms
+2023-10-17 23:36:57.359 +02:00 [DBG] Connection id "0HMUFB3LD5O10" received FIN.
+2023-10-17 23:36:57.372 +02:00 [DBG] Connection id "0HMUFB3LD5O10" is closed. The last processed stream ID was 9.
+2023-10-17 23:36:57.373 +02:00 [DBG] Connection id "0HMUFB3LD5O10" sending FIN because: "The client closed the connection."
+2023-10-17 23:36:57.385 +02:00 [DBG] Connection id "0HMUFB3LD5O10" stopped.
+2023-10-17 23:45:11.327 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-17 23:45:11.478 +02:00 [DBG] Hosting starting
+2023-10-17 23:45:11.686 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CB853927FC62DC046486414CBC785EB3C1C7E64)
+2023-10-17 23:45:11.758 +02:00 [INF] Now listening on: https://localhost:7100
+2023-10-17 23:45:11.761 +02:00 [INF] Now listening on: http://localhost:5100
+2023-10-17 23:45:11.762 +02:00 [DBG] Loaded hosting startup assembly CourseLibraryAPI
+2023-10-17 23:45:11.763 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-17 23:45:11.764 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-17 23:45:11.766 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-17 23:45:11.768 +02:00 [INF] Hosting environment: Development
+2023-10-17 23:45:11.769 +02:00 [INF] Content root path: C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\
+2023-10-17 23:45:11.770 +02:00 [DBG] Hosting started
+2023-10-17 23:45:11.958 +02:00 [DBG] Connection id "0HMUFB9BIN138" accepted.
+2023-10-17 23:45:11.963 +02:00 [DBG] Connection id "0HMUFB9BIN138" started.
+2023-10-17 23:45:11.975 +02:00 [DBG] Connection id "0HMUFB9BIN139" received FIN.
+2023-10-17 23:45:11.978 +02:00 [DBG] Connection id "0HMUFB9BIN138" received FIN.
+2023-10-17 23:45:11.982 +02:00 [DBG] Connection id "0HMUFB9BIN139" accepted.
+2023-10-17 23:45:11.985 +02:00 [DBG] Connection id "0HMUFB9BIN139" started.
+2023-10-17 23:45:12.003 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:45:12.003 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:45:12.065 +02:00 [DBG] Connection id "0HMUFB9BIN139" stopped.
+2023-10-17 23:45:12.065 +02:00 [DBG] Connection id "0HMUFB9BIN138" stopped.
+2023-10-17 23:45:12.069 +02:00 [DBG] Connection id "0HMUFB9BIN139" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:45:12.069 +02:00 [DBG] Connection id "0HMUFB9BIN138" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:45:12.342 +02:00 [DBG] Connection id "0HMUFB9BIN13A" accepted.
+2023-10-17 23:45:12.347 +02:00 [DBG] Connection id "0HMUFB9BIN13A" started.
+2023-10-17 23:45:12.442 +02:00 [DBG] Connection 0HMUFB9BIN13A established using the following protocol: "Tls12"
+2023-10-17 23:45:12.716 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - -
+2023-10-17 23:45:12.780 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-17 23:45:12.823 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-17 23:45:12.825 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:45:13.165 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-17 23:45:13.313 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-17 23:45:13.319 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - - - 200 - text/html;charset=utf-8 611.0267ms
+2023-10-17 23:45:13.349 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - -
+2023-10-17 23:45:13.358 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 6.7483ms
+2023-10-17 23:45:13.526 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - -
+2023-10-17 23:45:13.528 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-17 23:45:13.529 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:45:13.788 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 262.7483ms
+2023-10-17 23:45:20.247 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 23:45:20.255 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 23:45:20.263 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 23:45:20.265 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:45:20.268 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:45:20.272 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:45:20.308 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:45:20.313 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:45:20.314 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:45:20.316 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:45:20.319 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:45:20.320 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:45:20.322 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:45:20.497 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-17 23:45:20.681 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:45:21.646 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:45:21.753 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .Include(a => a.Courses)'
+2023-10-17 23:45:21.838 +02:00 [DBG] Including navigation: 'Author.Courses'.
+2023-10-17 23:45:22.143 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Author>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Course.AuthorId (Guid) Required FK Index, 6], [Property: Course.Description (string) Required MaxLength(2000), 7], [Property: Course.Title (string) Required MaxLength(200), 8] }
+            3 -> 5
+        SELECT a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory, c.Id, c.AuthorId, c.Description, c.Title
+        FROM Authors AS a
+        LEFT JOIN Courses AS c ON a.Id == c.AuthorId
+        ORDER BY a.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 23:45:22.203 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:45:22.254 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (45ms).
+2023-10-17 23:45:22.265 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:45:23.823 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:45:23.839 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:45:23.903 +02:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:45:23.941 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:23.983 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:23.986 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:23.987 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:23.990 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:23.996 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.004 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.026 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.035 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.037 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.039 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.040 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.041 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:45:24.051 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:45:24.056 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:45:24.065 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:45:24.067 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 23:45:24.074 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:45:24.083 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:45:24.085 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:45:24.086 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:45:24.088 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:45:24.090 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:45:24.092 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 23:45:24.140 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 3811.303ms
+2023-10-17 23:45:24.143 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:45:24.147 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:45:24.152 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 3904.9127ms
+2023-10-17 23:47:32.581 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7100/api/courses/addcourse?authorId=3751e81d-29d7-4d46-8de3-08dbce70bc02 application/json 102
+2023-10-17 23:47:32.583 +02:00 [DBG] 1 candidate(s) found for the request path '/api/courses/addcourse'
+2023-10-17 23:47:32.584 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.CoursesController.AddNewCourse (CourseLibraryAPI)' with route pattern 'api/courses/addcourse' is valid for the request path '/api/courses/addcourse'
+2023-10-17 23:47:32.586 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.CoursesController.AddNewCourse (CourseLibraryAPI)'
+2023-10-17 23:47:32.587 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:47:32.588 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.CoursesController.AddNewCourse (CourseLibraryAPI)'
+2023-10-17 23:47:32.603 +02:00 [INF] Route matched with {action = "AddNewCourse", controller = "Courses"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddNewCourse(System.Guid, CourseLibraryAPI.Models.DTOs.CourseDto) on controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI).
+2023-10-17 23:47:32.607 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:47:32.608 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:47:32.610 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:47:32.613 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:47:32.615 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:47:32.617 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:47:32.620 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.CoursesController (CourseLibraryAPI)
+2023-10-17 23:47:32.637 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:47:32.641 +02:00 [DBG] Attempting to bind parameter 'authorId' of type 'System.Guid' using the name 'authorId' in request data ...
+2023-10-17 23:47:32.646 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:47:32.648 +02:00 [DBG] Done attempting to bind parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:47:32.649 +02:00 [DBG] Attempting to validate the bound parameter 'authorId' of type 'System.Guid' ...
+2023-10-17 23:47:32.655 +02:00 [DBG] Done attempting to validate the bound parameter 'authorId' of type 'System.Guid'.
+2023-10-17 23:47:32.658 +02:00 [DBG] Attempting to bind parameter 'courseDto' of type 'CourseLibraryAPI.Models.DTOs.CourseDto' ...
+2023-10-17 23:47:32.662 +02:00 [DBG] Attempting to bind parameter 'courseDto' of type 'CourseLibraryAPI.Models.DTOs.CourseDto' using the name '' in request data ...
+2023-10-17 23:47:32.665 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-10-17 23:47:32.678 +02:00 [DBG] Connection id "0HMUFB9BIN13A", Request id "0HMUFB9BIN13A:00000009": started reading request body.
+2023-10-17 23:47:32.680 +02:00 [DBG] Connection id "0HMUFB9BIN13A", Request id "0HMUFB9BIN13A:00000009": done reading request body.
+2023-10-17 23:47:32.700 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'CourseLibraryAPI.Models.DTOs.CourseDto'
+2023-10-17 23:47:32.702 +02:00 [DBG] Done attempting to bind parameter 'courseDto' of type 'CourseLibraryAPI.Models.DTOs.CourseDto'.
+2023-10-17 23:47:32.703 +02:00 [DBG] Done attempting to bind parameter 'courseDto' of type 'CourseLibraryAPI.Models.DTOs.CourseDto'.
+2023-10-17 23:47:32.704 +02:00 [DBG] Attempting to validate the bound parameter 'courseDto' of type 'CourseLibraryAPI.Models.DTOs.CourseDto' ...
+2023-10-17 23:47:32.715 +02:00 [DBG] Done attempting to validate the bound parameter 'courseDto' of type 'CourseLibraryAPI.Models.DTOs.CourseDto'.
+2023-10-17 23:47:32.763 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:47:32.771 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .FirstOrDefault(a => a.Id == __authorId_0)'
+2023-10-17 23:47:32.785 +02:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Author>(
+    asyncEnumerable: new SingleQueryingEnumerable<Author>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            SELECT TOP(1) a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory
+            FROM Authors AS a
+            WHERE a.Id == @__authorId_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+        CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-10-17 23:47:32.796 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:47:32.798 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:47:32.803 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:32.805 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:32.814 +02:00 [DBG] Executing DbCommand [Parameters=[@__authorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory]
+FROM [Authors] AS [a]
+WHERE [a].[Id] = @__authorId_0
+2023-10-17 23:47:32.846 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[@__authorId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory]
+FROM [Authors] AS [a]
+WHERE [a].[Id] = @__authorId_0
+2023-10-17 23:47:32.851 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:32.857 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:47:32.858 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:32.860 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:32.901 +02:00 [DBG] 'CourseLibraryDbContext' generated a value for the property 'Id.Course'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:32.915 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:32.921 +02:00 [DBG] SaveChanges starting for 'CourseLibraryDbContext'.
+2023-10-17 23:47:32.927 +02:00 [DBG] DetectChanges starting for 'CourseLibraryDbContext'.
+2023-10-17 23:47:32.942 +02:00 [DBG] DetectChanges completed for 'CourseLibraryDbContext'.
+2023-10-17 23:47:32.965 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:32.967 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:32.971 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-10-17 23:47:32.989 +02:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-10-17 23:47:33.046 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:47:33.048 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:47:33.051 +02:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 2000), @p3='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Courses] ([Id], [AuthorId], [Description], [Title])
+VALUES (@p0, @p1, @p2, @p3);
+2023-10-17 23:47:33.057 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 2000), @p3='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Courses] ([Id], [AuthorId], [Description], [Title])
+VALUES (@p0, @p1, @p2, @p3);
+2023-10-17 23:47:33.067 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:47:33.073 +02:00 [DBG] Committing transaction.
+2023-10-17 23:47:33.078 +02:00 [DBG] Committed transaction.
+2023-10-17 23:47:33.082 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:33.084 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:33.088 +02:00 [DBG] Disposing transaction.
+2023-10-17 23:47:33.102 +02:00 [DBG] An entity of type 'Course' tracked by 'CourseLibraryDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:33.106 +02:00 [DBG] SaveChanges completed for 'CourseLibraryDbContext' with 1 entities written to the database.
+2023-10-17 23:47:33.108 +02:00 [INF] New course is added with details as CourseLibraryAPI.Models.Entities.Course
+2023-10-17 23:47:33.116 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-10-17 23:47:33.117 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.CoursesController.AddNewCourse (CourseLibraryAPI) in 499.7573ms
+2023-10-17 23:47:33.119 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.CoursesController.AddNewCourse (CourseLibraryAPI)'
+2023-10-17 23:47:33.120 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:47:33.122 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7100/api/courses/addcourse?authorId=3751e81d-29d7-4d46-8de3-08dbce70bc02 application/json 102 - 204 - - 541.1811ms
+2023-10-17 23:47:47.650 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 23:47:47.651 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 23:47:47.653 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 23:47:47.655 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:47:47.657 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:47:47.658 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:47:47.659 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:47:47.662 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:47:47.664 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:47:47.666 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:47:47.668 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:47:47.670 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:47:47.671 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:47:47.675 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:47:47.726 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:47:47.734 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:47:47.736 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-10-17 23:47:47.737 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:47.740 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:47.741 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:47:47.745 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:47:47.748 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.749 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.751 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.752 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.754 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.756 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.758 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.759 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.762 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.763 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.765 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.767 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.768 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.770 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:47:47.772 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:47:47.772 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:47.774 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:47:47.775 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 23:47:47.776 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:47:47.780 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:47:47.781 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:47:47.782 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:47:47.783 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:47:47.784 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:47:47.785 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 23:47:47.788 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 116.8829ms
+2023-10-17 23:47:47.790 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:47:47.791 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:47:47.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 142.3341ms
+2023-10-17 23:47:58.558 +02:00 [DBG] Connection id "0HMUFB9BIN13A" received FIN.
+2023-10-17 23:47:58.564 +02:00 [DBG] Connection id "0HMUFB9BIN13A" is closed. The last processed stream ID was 11.
+2023-10-17 23:47:58.572 +02:00 [DBG] Connection id "0HMUFB9BIN13A" stopped.
+2023-10-17 23:47:58.604 +02:00 [DBG] Connection id "0HMUFB9BIN13A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:57:56.542 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-10-17 23:57:56.731 +02:00 [DBG] Hosting starting
+2023-10-17 23:57:56.957 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 7CB853927FC62DC046486414CBC785EB3C1C7E64)
+2023-10-17 23:57:57.018 +02:00 [INF] Now listening on: https://localhost:7100
+2023-10-17 23:57:57.027 +02:00 [INF] Now listening on: http://localhost:5100
+2023-10-17 23:57:57.028 +02:00 [DBG] Loaded hosting startup assembly CourseLibraryAPI
+2023-10-17 23:57:57.029 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-10-17 23:57:57.030 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-10-17 23:57:57.032 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-17 23:57:57.033 +02:00 [INF] Hosting environment: Development
+2023-10-17 23:57:57.034 +02:00 [INF] Content root path: C:\Users\Bruker\OneDrive\Desktop\RealProjects\CourseLibraryAPI\CourseLibraryProject\CourseLibraryAPI\
+2023-10-17 23:57:57.035 +02:00 [DBG] Hosting started
+2023-10-17 23:57:57.506 +02:00 [DBG] Connection id "0HMUFBGFNJ910" received FIN.
+2023-10-17 23:57:57.506 +02:00 [DBG] Connection id "0HMUFBGFNJ90V" received FIN.
+2023-10-17 23:57:57.524 +02:00 [DBG] Connection id "0HMUFBGFNJ910" accepted.
+2023-10-17 23:57:57.524 +02:00 [DBG] Connection id "0HMUFBGFNJ90V" accepted.
+2023-10-17 23:57:57.527 +02:00 [DBG] Connection id "0HMUFBGFNJ910" started.
+2023-10-17 23:57:57.528 +02:00 [DBG] Connection id "0HMUFBGFNJ90V" started.
+2023-10-17 23:57:57.563 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:57:57.563 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-17 23:57:57.620 +02:00 [DBG] Connection id "0HMUFBGFNJ90V" stopped.
+2023-10-17 23:57:57.620 +02:00 [DBG] Connection id "0HMUFBGFNJ910" stopped.
+2023-10-17 23:57:57.631 +02:00 [DBG] Connection id "0HMUFBGFNJ90V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:57:57.631 +02:00 [DBG] Connection id "0HMUFBGFNJ910" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-10-17 23:57:57.920 +02:00 [DBG] Connection id "0HMUFBGFNJ911" accepted.
+2023-10-17 23:57:58.010 +02:00 [DBG] Connection id "0HMUFBGFNJ911" started.
+2023-10-17 23:57:58.715 +02:00 [DBG] Connection 0HMUFBGFNJ911 established using the following protocol: "Tls12"
+2023-10-17 23:57:58.871 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/index.html - -
+2023-10-17 23:57:58.939 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-10-17 23:57:58.982 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-10-17 23:57:58.984 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:57:59.209 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-10-17 23:57:59.348 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-10-17 23:57:59.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/index.html - - - 200 - text/html;charset=utf-8 490.8771ms
+2023-10-17 23:57:59.397 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - -
+2023-10-17 23:57:59.405 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 8.5472ms
+2023-10-17 23:57:59.586 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - -
+2023-10-17 23:57:59.587 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-10-17 23:57:59.589 +02:00 [DBG] Request did not match any endpoints
+2023-10-17 23:57:59.830 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 244.8016ms
+2023-10-17 23:58:04.830 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7100/api/authors - -
+2023-10-17 23:58:04.842 +02:00 [DBG] 1 candidate(s) found for the request path '/api/authors'
+2023-10-17 23:58:04.852 +02:00 [DBG] Endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)' with route pattern 'api/authors' is valid for the request path '/api/authors'
+2023-10-17 23:58:04.855 +02:00 [DBG] Request matched endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:58:04.859 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-10-17 23:58:04.864 +02:00 [INF] Executing endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:58:04.900 +02:00 [INF] Route matched with {action = "GetAllAuthors", controller = "Authors"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.ICollection`1[CourseLibraryAPI.Models.Entities.Author]]] GetAllAuthors() on controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI).
+2023-10-17 23:58:04.905 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-10-17 23:58:04.907 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-10-17 23:58:04.910 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-10-17 23:58:04.914 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-10-17 23:58:04.916 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-10-17 23:58:04.918 +02:00 [DBG] Executing controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:58:05.082 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-17 23:58:05.287 +02:00 [DBG] Executed controller factory for controller CourseLibraryAPI.Controllers.AuthorsController (CourseLibraryAPI)
+2023-10-17 23:58:06.295 +02:00 [INF] Entity Framework Core 6.0.23 initialized 'CourseLibraryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.23' with options: None
+2023-10-17 23:58:06.387 +02:00 [DBG] Compiling query expression: 
+'DbSet<Author>()
+    .Include(a => a.Courses)'
+2023-10-17 23:58:06.470 +02:00 [DBG] Including navigation: 'Author.Courses'.
+2023-10-17 23:58:06.771 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Author>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Author.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Author.DateOfBirth (DateTime) Required, 1], [Property: Author.Firstname (string) Required MaxLength(100), 2], [Property: Author.Lastname (string) Required MaxLength(100), 3], [Property: Author.MainCategory (string) Required MaxLength(100), 4] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: Course.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: Course.AuthorId (Guid) Required FK Index, 6], [Property: Course.Description (string) Required MaxLength(2000), 7], [Property: Course.Title (string) Required MaxLength(200), 8] }
+            3 -> 5
+        SELECT a.Id, a.DateOfBirth, a.Firstname, a.Lastname, a.MainCategory, c.Id, c.AuthorId, c.Description, c.Title
+        FROM Authors AS a
+        LEFT JOIN Courses AS c ON a.Id == c.AuthorId
+        ORDER BY a.Id ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Author>, 
+    CourseLibraryAPI.DataAccess.CourseLibraryDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-10-17 23:58:06.840 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-10-17 23:58:06.888 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (44ms).
+2023-10-17 23:58:06.899 +02:00 [DBG] Opening connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:58:08.412 +02:00 [DBG] Opened connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:58:08.426 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:58:08.494 +02:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[Firstname], [a].[Lastname], [a].[MainCategory], [c].[Id], [c].[AuthorId], [c].[Description], [c].[Title]
+FROM [Authors] AS [a]
+LEFT JOIN [Courses] AS [c] ON [a].[Id] = [c].[AuthorId]
+ORDER BY [a].[Id]
+2023-10-17 23:58:08.543 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.585 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.609 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.617 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.619 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.621 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.623 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.626 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.628 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.630 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.632 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.634 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Author' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.635 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.637 +02:00 [DBG] Context 'CourseLibraryDbContext' started tracking 'Course' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-17 23:58:08.645 +02:00 [DBG] A data reader was disposed.
+2023-10-17 23:58:08.650 +02:00 [DBG] Closing connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:58:08.657 +02:00 [DBG] Closed connection to database 'CourseLibrary' on server '(localdb)\mssqllocaldb'.
+2023-10-17 23:58:08.660 +02:00 [INF] All Authors are listedSystem.Collections.Generic.List`1[CourseLibraryAPI.Models.Entities.Author]
+2023-10-17 23:58:08.668 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-10-17 23:58:08.673 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-10-17 23:58:08.676 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-10-17 23:58:08.678 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-17 23:58:08.680 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-17 23:58:08.682 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-17 23:58:08.685 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CourseLibraryAPI.Models.Entities.Author, CourseLibraryAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-17 23:58:08.741 +02:00 [INF] Executed action CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI) in 3817.4914ms
+2023-10-17 23:58:08.744 +02:00 [INF] Executed endpoint 'CourseLibraryAPI.Controllers.AuthorsController.GetAllAuthors (CourseLibraryAPI)'
+2023-10-17 23:58:08.751 +02:00 [DBG] 'CourseLibraryDbContext' disposed.
+2023-10-17 23:58:08.762 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7100/api/authors - - - 200 - application/json;+charset=utf-8 3931.3362ms

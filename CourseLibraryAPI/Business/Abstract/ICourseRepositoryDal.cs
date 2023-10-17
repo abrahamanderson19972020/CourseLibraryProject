@@ -9,11 +9,11 @@ namespace CourseLibraryAPI.Business.Abstract
         Task AddAuthor(Author author);
         Task DeleteAuthor(Guid authorId);
         Task UpdateAuthor(Author author);
-        Task<ICollection<Course>> GetCourseAsync(Guid authorId);
+        Task<ICollection<Course>> GetCoursesAsync(Guid authorId);
         Task<Course> GetCourseByIdAsync(Guid courseId, Guid authorId);
-        Task AddCourse(Guid authorId,Course course);  
-        Task DeleteCourse(Course course);
-        Task UpdateCourse(Course course);
+        Task<bool> AddCourse(Guid authorId,Course course);  
+        Task<bool> DeleteCourse(Guid courseId);
+        Task<bool> UpdateCourse(Course course);
         Task<bool> SaveChangesAsync();
         Task<bool> AuthorExistsAsync(Guid authorId);
     }

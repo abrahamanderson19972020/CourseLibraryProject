@@ -58,7 +58,7 @@ namespace CourseLibraryAPI.Business.Abstract
         }
 
 
-        public async Task<ICollection<Course>> GetCourseAsync(Guid authorId)
+        public async Task<ICollection<Course>> GetCoursesAsync(Guid authorId)
         {
             return await _context.Courses.Where<Course>(c => c.AuthorId == authorId).ToListAsync();  
         }
@@ -79,25 +79,36 @@ namespace CourseLibraryAPI.Business.Abstract
 
         }
 
-        public async Task AddCourse(Guid authorId,Course course)
+        public async Task<bool> AddCourse(Guid authorId,Course course)
         {
+            bool isAuthorValid = await AuthorExistsAsync(authorId);
+            if(!isAuthorValid)
+            {
+                return isAuthorValid;
+            }
             course.AuthorId = authorId;
             await _context.Courses.AddAsync(course);
             await _context.SaveChangesAsync();
+            return isAuthorValid;
         }
 
-        public async Task DeleteCourse(Course course)
+        public async Task<bool> DeleteCourse(Guid courseId)
         {
-             var result =await _context.Courses.FirstOrDefaultAsync(c=>c.Id == course.Id);
+            var result = await _context.Courses.FirstOrDefaultAsync(c=>c.Id == courseId);
             if(result != null)
             {
                 _context.Courses.Remove(result);
                 await _context.SaveChangesAsync();
+                return true;
+            }
+            else
+            {
+                return false;
             }
  
         }
 
-        public async Task UpdateCourse(Course course)
+        public async Task<bool> UpdateCourse(Course course)
         {
             var result = await _context.Courses.FirstOrDefaultAsync(c => c.Id == course.Id);
             if(result != null)
@@ -106,7 +117,9 @@ namespace CourseLibraryAPI.Business.Abstract
                 result.Description = String.IsNullOrEmpty(course.Description) ? result.Description : result.Description;
                 result.Title = String.IsNullOrEmpty(course.Title) ? result.Title : result.Title;
                 await _context.SaveChangesAsync();
+                return result != null;
             }
+            return result != null;
         }
 
         public async Task<bool> SaveChangesAsync()
