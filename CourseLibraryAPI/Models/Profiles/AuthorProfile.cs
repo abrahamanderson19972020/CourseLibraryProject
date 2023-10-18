@@ -10,6 +10,7 @@ namespace CourseLibraryAPI.Models.Profiles
         {
             CreateMap<Author, AuthorDto>();
             CreateMap<AuthorDto, Author>();
+            CreateMap<UpdateAuthorDto, Author>();
         }
         
     }

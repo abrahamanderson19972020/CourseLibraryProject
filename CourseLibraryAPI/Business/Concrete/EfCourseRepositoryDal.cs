@@ -1,4 +1,6 @@
-﻿using CourseLibraryAPI.DataAccess;
+﻿using AutoMapper;
+using CourseLibraryAPI.DataAccess;
+using CourseLibraryAPI.Models.DTOs;
 using CourseLibraryAPI.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,10 +9,12 @@ namespace CourseLibraryAPI.Business.Abstract
     public class EfCourseRepositoryDal : ICourseRepositoryDal
     {
         private readonly CourseLibraryDbContext _context;
+        private readonly IMapper _mapper;
 
-        public EfCourseRepositoryDal(CourseLibraryDbContext context)
+        public EfCourseRepositoryDal(CourseLibraryDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         public async Task<bool> AuthorExistsAsync(Guid authorId)
         {
@@ -43,16 +47,12 @@ namespace CourseLibraryAPI.Business.Abstract
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAuthor(Author author)
+        public async Task UpdateAuthor(UpdateAuthorDto author)
         {
             var result = await _context.Authors.FirstOrDefaultAsync(a=> a.Id == author.Id);
             if(result != null)
             {
-                result.Firstname = String.IsNullOrEmpty(author.Firstname) ? result.Firstname : author.Firstname;
-                result.Lastname = String.IsNullOrEmpty(author.Lastname) ? result.Lastname : author.Lastname;
-                result.DateOfBirth = author.DateOfBirth;
-                result.Courses = author.Courses.Count> 1 ? author.Courses: result.Courses;
-                result.MainCategory = String.IsNullOrEmpty(author.MainCategory) ? result.MainCategory : author.MainCategory;
+                _mapper.Map(author, result);
                 await _context.SaveChangesAsync();
             }
         }
@@ -108,14 +108,12 @@ namespace CourseLibraryAPI.Business.Abstract
  
         }
 
-        public async Task<bool> UpdateCourse(Course course)
+        public async Task<bool> UpdateCourse(UpdateCourseDto course)
         {
             var result = await _context.Courses.FirstOrDefaultAsync(c => c.Id == course.Id);
             if(result != null)
             {
-                result.AuthorId = course.AuthorId;  
-                result.Description = String.IsNullOrEmpty(course.Description) ? result.Description : result.Description;
-                result.Title = String.IsNullOrEmpty(course.Title) ? result.Title : result.Title;
+                _mapper.Map(course, result);
                 await _context.SaveChangesAsync();
                 return result != null;
             }

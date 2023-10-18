@@ -54,7 +54,7 @@ namespace CourseLibraryAPI.Controllers
             return Ok(authorToAdd);
         }
         [HttpPut("updateauthor")]
-        public async Task<ActionResult> UpdateAuthor(Author author)
+        public async Task<ActionResult> UpdateAuthor(UpdateAuthorDto author)
         {
             await _repositoryDal.UpdateAuthor(author);
             _logger.LogInformation("Author is updated with details " + author.ToString());

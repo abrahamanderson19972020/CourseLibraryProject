@@ -63,12 +63,12 @@ namespace CourseLibraryAPI.Controllers
         }
 
         [HttpPut("updatecourse")]
-        public async Task<ActionResult> UpdateCourse(Course course)
+        public async Task<ActionResult> UpdateCourse(UpdateCourseDto updateCourseDto)
         {
-            bool result = await _repositoryDal.UpdateCourse(course);
+            bool result = await _repositoryDal.UpdateCourse(updateCourseDto);
             if(result)
             {
-                _logger.LogInformation("New course is updated with details as " + course.ToString());
+                _logger.LogInformation("New course is updated with details as " + updateCourseDto.ToString());
                 return NoContent();
             }
             else
